@@ -1,0 +1,44 @@
+site_name: Grin CC
+
+theme:
+  name: material
+  logo: assets/gcc_logo.png
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: black
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: black
+extra_css:
+  - stylesheets/extra.css
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/Grin_Governance
+nav:
+  - Home: index.md
+  - Projects: projects.md
+  - Funding Requests: funding_requests.md
+  - Spending Guidelines: spending_guidelines.md
+  - Links: links.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+copyright: Grin Community

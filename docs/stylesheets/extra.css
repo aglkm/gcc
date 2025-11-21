@@ -1,0 +1,13 @@
+.md-grid {
+  max-width: initial; 
+}
+
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 2rem;
+    width: 2rem;
+}
+
+[data-md-color-primary="black"] {
+    --md-primary-bg-color: lightgray;
+}
+
